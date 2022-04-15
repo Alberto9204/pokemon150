@@ -3,12 +3,17 @@
     padding: 0px;
 }
 
+header{
+    width: 100%;
+}
+
 body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-image:url("../Img_pokemon/fondo.jpg");
-    background-size: cover;
+    background: rgb(14,200,195);
+background: radial-gradient(circle, rgba(14,200,195,1) 22%, rgba(48,45,253,0.9472163865546218) 91%);
+
 }
 
 div{
@@ -30,12 +35,18 @@ img{
 span{
     display: flex;
     justify-content: center;
-    font-family: 'Heebo', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Red Hat Mono', monospace;
     font-family: 'Roboto', sans-serif;
 }
 
 .fuego{
     background-color: rgba(243, 11, 11, 0.959);
+}
+
+.logo{
+    width: 550px;
+    height: 200px;
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    
 }
