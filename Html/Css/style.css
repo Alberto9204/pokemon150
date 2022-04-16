@@ -11,15 +11,14 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background: rgb(14,200,195);
-background: radial-gradient(circle, rgba(14,200,195,1) 22%, rgba(48,45,253,0.9472163865546218) 91%);
+    background: rgb(242,44,0);
+    background: radial-gradient(circle, rgba(242,44,0,0.9780287114845938) 15%, rgba(241,226,0,1) 30%, rgba(16,236,0,1) 45%, rgba(1,141,231,0.896796218487395) 60%, rgba(201,1,231,1) 75%, rgba(231,1,98,1) 90%);
 
 }
 
 div{
     width: 300px;
     height: 180px;
-    background-color: rgba(55, 180, 143, 0.877);
     margin: 20px;
     border-radius: 10px;
     border: solid;
@@ -40,7 +39,8 @@ span{
 }
 
 .fuego{
-    background-color: rgba(243, 11, 11, 0.959);
+    background: rgb(238,36,1);
+    background: radial-gradient(circle, rgba(238,36,1,0.908000700280112) 11%, rgba(255,149,0,1) 93%);
 }
 
 .logo{
@@ -49,5 +49,74 @@ span{
     display: block;
     margin: 0px auto;
     padding: 10px;
-    
+}
+
+.planta{
+    background: rgb(26,224,142);
+    background: radial-gradient(circle, rgba(26,224,142,0.908000700280112) 11%, rgba(29,184,49,0.9416141456582633) 93%);
+}
+
+.agua{
+    background: rgb(14,200,195);
+    background: radial-gradient(circle, rgba(14,200,195,1) 18%, rgba(48,45,253,0.9472163865546218) 84%);
+}
+
+.insecto{
+    background: rgb(35,207,15);
+    background: radial-gradient(circle, rgba(35,207,15,0.8323704481792717) 23%, rgba(245,255,0,0.835171568627451) 90%);
+}
+
+.volador{
+    background: rgb(177,185,185);
+    background: radial-gradient(circle, rgba(177,185,185,1) 37%, rgba(45,231,253,0.9472163865546218) 79%);
+}
+
+.normal{
+    background: rgb(177,185,185);
+    background: radial-gradient(circle, rgba(177,185,185,0.5186449579831933) 37%, rgba(153,156,157,0.8631827731092436) 51%);
+}
+
+.psiquico{
+    background: rgb(162,24,163);
+    background: radial-gradient(circle, rgba(162,24,163,0.8015581232492998) 37%, rgba(151,33,196,0.8631827731092436) 51%);
+}
+
+.veneno{
+    background: rgb(255,23,238);
+    background: radial-gradient(circle, rgba(255,23,238,0.8015581232492998) 37%, rgba(151,33,196,0.9808298319327731) 81%);
+}
+
+.electrico{
+    background: rgb(253,255,144);
+    background: radial-gradient(circle, rgba(253,255,144,0.8575805322128851) 37%, rgba(242,255,0,0.8295693277310925) 81%);
+}
+
+.tierra{
+    background: rgb(143,55,0);
+    background: radial-gradient(circle, rgba(143,55,0,0.927608543417367) 71%, rgba(242,255,0,0.7483368347338936) 95%);
+}
+
+.lucha{
+    background: rgb(143,55,0);
+    background: radial-gradient(circle, rgba(143,55,0,0.927608543417367) 38%, rgba(255,68,0,0.9332107843137255) 95%);
+}
+
+.roca{
+    background: rgb(143,55,0);
+    background: radial-gradient(circle, rgba(143,55,0,0.7707457983193278) 17%, rgba(134,111,97,1) 51%, rgba(131,131,131,1) 63%);
+}
+
+.fantasma{
+    background: rgb(52,7,55);
+    background: radial-gradient(circle, rgba(52,7,55,0.9780287114845938) 28%, rgba(180,124,232,0.8463760504201681) 82%);
+}
+
+.hielo{
+    background: rgb(103,88,224);
+    background: radial-gradient(circle, rgba(103,88,224,0.9780287114845938) 28%, rgba(190,230,238,0.9864320728291317) 72%);
+}
+
+.dragon{
+    background: rgb(145,65,219);
+    background: radial-gradient(circle, rgba(145,65,219,0.9780287114845938) 28%, rgba(214,34,28,0.896796218487395) 72%);
 }
