@@ -21,7 +21,8 @@ div{
     height: 180px;
     background-color: rgba(55, 180, 143, 0.877);
     margin: 20px;
-
+    border-radius: 10px;
+    border: solid;
 }
 
 img{
